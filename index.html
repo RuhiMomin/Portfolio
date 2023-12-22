@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/694ce10b93.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/s-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Node Js Developer</p>
+                <h1>Hi, I'm <span>Ruhi</span><br>Momin from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pexels-pavel-danilyuk-5496464.jpg">
+                </div>
+                <div class="about-col-2" id="about">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate and aspiring Node.js developer ready to make a mark in the digital realm. As a fresh
+                        talent in the world of web development, I bring an insatiable curiosity and a drive to create
+                        innovative and efficient solutions.</p><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Node.Js Knowledge</span><br>Grasp the fundamentals and asynchronous nature of
+                                Node.js.</li>
+                            <li><span>RESTful APIs</span><br>Create and use RESTful APIs for smooth communication.</li>
+                            <li><span>Basic Frontend Knowledge</span><br>Grasp HTML, CSS and basic client-side
+                                JavaScript.</li>
+                            <li><span>Database Knowledge</span><br>Understand basic of database, like MySQL.</li>
+                            <li><span>Version Control/Git</span><br>Use Git and GitHub for collaborative coding.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Science in Information Technology</span><br>Guru Nanak College, Gtb
+                                nagar<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Back-end Development</h2>
+                    <p>With a solid foundation in Node.js, I'm enthusiastic about crafting responsive and scalable
+                        applications. While I'm in the early stages of my career, my passion for learning and
+                        problem-solving propels me to explore API development, database integration, and middleware
+                        implementation. I bring a fresh perspective, a hunger for knowledge, and a commitment to
+                        contributing to the success of projects.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2> Api Creation & Integration</h2>
+                    <p>An aspiring backend developer venturing into the dynamic realm of API creation. My journey is
+                        marked by a solid foundation in Node.js, and I'm excited to channel this knowledge into crafting
+                        robust and user-friendly RESTful APIs. Despite being a newcomer to the field, I bring a fresh
+                        perspective, a passion for innovation, and a commitment to mastering the intricacies of API
+                        development. I view challenges as opportunities for growth and problem-solving as a chance to
+                        refine my skills..</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Real-time Web Application</h2>
+                    <p>A budding backend developer stepping into the realm of real-time web application development.
+                        With a foundational understanding of Node.js, my focus extends to leveraging this knowledge for
+                        crafting dynamic and responsive applications that thrive in real-time scenarios. Despite being
+                        in the early stages of my career, I bring a unique perspective, a fervor for staying abreast of
+                        emerging trends, and a commitment to mastering the intricacies of real-time web applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>E-BUDDY</h3>
+                        <p> The e-commerce website projects aims to create a user-friendly and visually appealing
+                            paltform that seamlessly connects buyers with a diverse range of products.the website will
+                            feature intuitive navigatiob, a responsive design for optimalviewing on various devices, and
+                            robust product categorization to enhance the shopping experience. users will be able to
+                            easily browse throught product listenings,acces detailed information and add item to their
+                            carts effortlessly. </p>
+                        <a href="https://github.com/RuhiMomin/Ebuddy" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>ProTask</h3>
+                        <p>The to-do-list API project is a robust and user-friendly task management system thatb allows
+                            users to efficiently organize their tasks.buit on a RESTful architecture, the API supports
+                            essential CRUD operations,enabling users to add,retrieve,modify and delete tasks seamlessly.
+                            it incorporates user authentication for secure access, ensuring that each user cna only
+                            manipulate their own tasks.</p>
+                        <a href="https://github.com/RuhiMomin/ProTask" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>ShopLoom</h3>
+                        <p>The e-commerce API projects aims to develop a user-frindly and visually appealing interface
+                            that seamlessly connects developers with a diverse range of product data.the API will
+                            feature intuitive endpoints, a responsive design for optimal integration on various
+                            paltforms and robust product categorization to enhance the developer experience. Developers
+                            will be able to easily retrieve product information, acces detailed API documentation and
+                            integrate product data effortlessly into their applications.</p>
+                        <a href="https://github.com/RuhiMomin/ShopLoom" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-at"></i>ruhimomin832@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ruhi-momin-309325296" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/RuhiMomin" target="_blank">
+                            <i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/RUHI CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" placeholder="Your Name" name="Name" required>
+                        <input type="email" placeholder="Your Email" name="Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 | All rights reserved |Made with <i class="fa-solid fa-heart"></i> By Ruhi Momin</p>
+        </div>
+    </div>
+    <script>
+        let tablinks = document.getElementsByClassName('tab-links')
+        let tabcontents = document.getElementsByClassName('tab-contents')
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link')
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbwoh_LT0XgYeEluupT9q0G65RnHM9pDvUt4Fut89MdcfN9rA_ZBI-oFxx45kLH_Dcwu/exec"
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
